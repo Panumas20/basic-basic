@@ -5,7 +5,7 @@ const Item = (props) => {
 	return (
 		<li>
 			{title}
-			<span>{amount}</span>
+			<span>{amount} test2</span>
 		</li>
 	);
 };
