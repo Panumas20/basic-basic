@@ -8,7 +8,7 @@ const Item = (props) => {
 	return (
 		<li className={status}>
 			{title}
-			<span>{symbol}{Math.abs(amount)}</span>
+			<span>{symbol}{Math.abs(amount)} test</span>
 		</li>
 	);
 };
