@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import { useState, useEffect, useReducer } from 'react';
+import { useState, useEffect } from 'react'; //useReducer
 
 import Transaction from './component/Transaction';
 import FormComponent from './component/FormComponent';
 import DataContext from './Data/DataContext';
-import { element } from 'prop-types';
+//import { element } from 'prop-types';
 import ReportComponent from './component/ReportComponent';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
